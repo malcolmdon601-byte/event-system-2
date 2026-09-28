@@ -1,0 +1,23 @@
+# Local environment and secrets
+Backend/.env
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+
+# Dependencies and build output
+Backend/vendor/
+Frontend/node_modules/
+Frontend/dist/
+
+# Local databases, logs, and generated runtime state
+Backend/database/*.sqlite
+Backend/database/*.sqlite-*
+Backend/storage/logs/*.log
+Backend/storage/*.key
+Backend/bootstrap/cache/*.php
+Backend/.phpunit.cache/
+Backend/.phpunit.result.cache
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
